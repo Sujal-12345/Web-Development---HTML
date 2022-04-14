@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+</head>
+<body>
+    <h1>Page 2</h1>
+
+    <!--Code for generating a link to a webpage. Here we will be linking our webpage "index"-->
+    <!--NOTICE the tag {target = "_blank"} being used to open a webpage in a new tab. "-->
+    <a href="index.html" target ="_blank">Home</a>
+
+    <!--Code for generating a link to a webpage. Here we will be linking a word document persent in Google Drive-->
+    <a href="https://docs.google.com/document/d/1Na3B9hGBpuP9_64OcZQlazaCb0HN862d/edit" target="_blank" rel="noopener noreferrer"><h3>BEE Experiment</h3></a>
+    <!--Notice <h2> ... </h2> tag being used for heading and naming the link-->
+    <hr>
+
+
+    <!--Following code for how to fetch a File inside a Folder in your Computer-->
+    <a href="Programs/C programs 1/" target="_blank">C programs 1</a>
+    <br>
+    <a href="Programs/C programs 2/" target="_blank">C programs 2</a>
+
+    <hr>
+
+    
+    
+    <h2>Image Sample</h2>
+    <!--Codes for Image. Here our image is stored in a folder named "Image" which is inside the Folder "html files"-->
+    <img src="Image/Technology.PNG" alt="">
+    <br>
+    <br>
+    <h3>Image formed by manually giving width</h3>
+    <img src="Image/Technology.PNG" alt="" width="500">     <!--Recommended to use this to change the size of Image-->
+    <br>
+    <br>
+    <h3>Image formed by manually giving width and height</h3>
+    <img src="Image/Technology.PNG" alt="" width="500" height="700">
+
+    <hr>
+    <hr>
+    <hr>
+
+</body>
+</html>
