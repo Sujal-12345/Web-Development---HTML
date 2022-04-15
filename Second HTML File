@@ -43,6 +43,35 @@
     <hr>
     <hr>
     <hr>
+    
+    <!--Code for Video. Poster tag is used for Thumbnail. -->
+    <video src="Video/videoplayback (1).mp4" width="400" controls poster="Image/technicolor beat.PNG"></video>    
+    <!--Use the tag "autoplay" instead of "controls" to automatically playing the video-->
+    <br>
+    <video src="Video/videoplayback (1).mp4" width="500" controls loop poster="Image/technicolor beat.PNG"></video>
+    <br>
+    <video src="Video/videoplayback (1).mp4" width="600" controls loop muted poster="Image/technicolor beat.PNG"></video>
+    <br>
+
+    <hr>
+    <hr>
+    <hr>
+
+
+    <!--Using "iframe" tag. This is used for showing up the content of another website to Our Website-->
+    <!--You need not write the Code Below. The Code is copied form Embed Option inside the Share Button on YouTube-->
+    <iframe width="560" height="350" src="https://www.youtube.com/embed/LqsibQU_PUA" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <hr>
+    <hr>
+    <br>
+    <!--Code written Manually to show up a website-->
+    <h2>Showcasing a website</h2>
+    <iframe src="https://www.techinfinitus.com" frameborder="0" width="600" height="400"></iframe>
+    <br>
+    <hr>
+    <hr>
+    <a href="Third.html" target="_blank"><h4>Third Webpage</h4></a>
 
 </body>
 </html>
